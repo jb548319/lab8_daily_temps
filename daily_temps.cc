@@ -11,10 +11,25 @@
 #include <fstream>
 using namespace std;
 
+/**
+ * Gets lowest temperature
+ * @param daily_low array for 30 days of low temperatures
+ * @return lowest temperature of the month
+*/
 int lowestTemp (int daily_low[]);
 
+/**
+ * Gets highest temperature
+ * @param daily_low array for 30 days of low temperatures
+ * @return highest temperature of the month
+*/
 int highestTemp (int daily_low[]);
 
+/**
+ * Gets average of all 30 days
+ * @param daily_low array for 30 days of low temperatures
+ * @return average temperature
+*/
 double lowestAvgTemp (int daily_low[]);
 
 int main(int argc, char const *argv[]) {
